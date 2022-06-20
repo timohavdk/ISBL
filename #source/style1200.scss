@@ -1,0 +1,41 @@
+@import "mainstyle.scss";
+//Для больших мониторов
+@media (min-width: 1200px) { //Запрос
+	h1 {
+		font-weight: 600;
+		color: white;
+		text-align: right;
+	}
+
+	h2 {
+		font-weight: 600;
+		font-style: normal;
+		color: white;
+		text-align: center;
+	}
+
+	h3 {
+		font-weight: 600;
+		font-style: normal;
+		color: white;
+		text-align: center;
+	}
+
+	h4{
+		font-weight: 600;
+		color: white;
+		font-size: 32px;
+	}
+	.wrapper{
+		max-width: 1150px;
+	}
+	.navigation {
+		max-width: 1150px;
+		&_bar {
+			padding: 24px;
+		}
+		&_item {
+			min-width: 197px;
+		}
+	}
+}
